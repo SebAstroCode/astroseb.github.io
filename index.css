@@ -1,3 +1,19 @@
+body {
+    background-color: #24445c;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
 h1 {
-    color: blue;
+    color: #b36700;
+    text-align: center;
+    padding: 1em;
+    font-size: 3em;
 }
