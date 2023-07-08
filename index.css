@@ -17,3 +17,8 @@ h1 {
     padding: 1em;
     font-size: 3em;
 }
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}

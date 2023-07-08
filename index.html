@@ -12,5 +12,27 @@
         <h1>Astro Seb</h1>
         <p>Bienvenue chez moi ! On parle astronomie / astrophysique.</p>
     </header>
+    <main id="app">
+        <nav>
+            <div id="like_button_container"></div>
+            <ul>
+                <li>Accueil</li>
+                <li>News</li>
+                <li>Livres</li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste est, impedit molestiae corrupti vitae eligendi provident esse molestias facilis labore eum vel qui, quae perspiciatis dignissimos amet, alias voluptate praesentium?
+            </article>
+        </section>
+    </main>
+    <footer>
+        &copy; Seb {{ year }}
+    </footer>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <!-- Charge notre composant React -->
+    <script src="app.js"></script>
 </body>
 </html>
